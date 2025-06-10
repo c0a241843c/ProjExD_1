@@ -30,6 +30,7 @@ def main():
             kk_rct.move_ip(-1,0)
         if key_lst[pg.K_RIGHT]:
             kk_rct.move_ip(+1,0)
+        print(kk_rct)
 
 
         x  = tmr%3200
